@@ -16,7 +16,7 @@ exports.addDevice = (req, res) => {
     res.status(201).json({ message: 'Device added successfully', deviceId });
 };
 
-// Function to get a device by ID (This was missing)
+// Function to get a device by ID 
 exports.getDevice = (req, res) => {
     const { deviceId } = req.params;
 
