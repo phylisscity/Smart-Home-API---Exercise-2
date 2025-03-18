@@ -6,7 +6,7 @@ const router = express.Router();
 // Route for adding a new device to a room
 router.post('/:roomId', addDevice);
 
-// Route for retrieving device details by ID (This was broken)
+// Route for retrieving device details by ID 
 router.get('/:deviceId', getDevice); // Ensure getDevice is imported correctly
 
 // Route for toggling a device ON/OFF
